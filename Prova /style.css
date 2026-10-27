@@ -1,0 +1,41 @@
+
+h1 {
+    color: blue;
+  }
+  p {
+    color: #662214;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  body {
+    background-color: #8105e6e3;
+  }
+  .item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .container_frutas {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(141, 212, 9);
+    
+  }
+  
+  .container_verduras {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(179, 132, 6);
+  }
+  div {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #000;
+  }
